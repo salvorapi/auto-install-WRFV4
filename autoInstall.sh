@@ -318,7 +318,7 @@ getLibrary() {
         sudo $PACKAGE_MANAGER -yqq install autoconf libtool automake
         sudo $PACKAGE_MANAGER -yqq install mpich mpich-devel
         sudo $PACKAGE_MANAGER -yqq install gettext-devel gettext
-        sudo $PACKAGE_MANAGER -yqq install libcurl-devel libcurl curl
+        sudo $PACKAGE_MANAGER -yqq install libcurl-devel curl
         sudo $PACKAGE_MANAGER -yqq install git perl
     fi
     export PATH="/usr/lib64/mpich/bin:$PATH"
